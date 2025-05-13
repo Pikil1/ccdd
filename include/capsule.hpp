@@ -23,6 +23,6 @@ static double segment_segment_distance( const Eigen::Vector3d& p1, const Eigen::
 
 double capsule_distance(const Capsule& a, const Capsule& b);
 
-bool is_colliding(const Capsule& a, const Capsule& b, double margin=1e-4);
+bool capsule_is_colliding(const Capsule& a, const Capsule& b, double margin=1e-4);
 
 

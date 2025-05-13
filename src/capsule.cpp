@@ -72,6 +72,6 @@ double capsule_distance(const Capsule& a, const Capsule& b){
      return (d - a.radius - b.radius);
 }
 
-bool is_colliding(const Capsule& a, const Capsule& b, double margin) {
+bool capsule_is_colliding(const Capsule& a, const Capsule& b, double margin) {
     return capsule_distance(a, b) < margin;
 }

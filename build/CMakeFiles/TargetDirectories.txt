@@ -1,0 +1,3 @@
+/home/yuan/self_collision/build/CMakeFiles/collisionchecker.dir
+/home/yuan/self_collision/build/CMakeFiles/edit_cache.dir
+/home/yuan/self_collision/build/CMakeFiles/rebuild_cache.dir
