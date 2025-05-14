@@ -68,19 +68,7 @@ const std::vector<Capsule>& CapsuleCollisionDetector::get_capsules() const {
 }
 
 bool CapsuleCollisionDetector::has_collision(double margin) const {
-    for (size_t i = 0; i < capsules_.size(); ++i) {
-        for (size_t j = i + 1; j < capsules_.size(); ++j) {
-            const Capsule& a = capsules_[i];
-            const Capsule& b = capsules_[j];
-            if (should_check(a.link_id, b.link_id)) {
-                if (capsule_is_colliding(a, b, margin)) {
-                    return true;
-                }
-            }
-        }
-    }
-    return false;
+    return !get_colliding_pairs(margin).empty();
 }
-
 
 

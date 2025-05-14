@@ -59,9 +59,6 @@ int main() {
     auto end_time = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time);
     std::cout << "[INFO] Collision check took " << duration.count() << " microseconds." << std::endl;
-    for (const auto& pair : detector.get_colliding_pairs()) {
-      std::cout << "Capsule " << pair.first << " collides with " << pair.second << std::endl;
-    }
   } else {
     std::cout << " No collision detected." << std::endl;
     auto end_time = std::chrono::high_resolution_clock::now();

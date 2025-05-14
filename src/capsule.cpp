@@ -77,13 +77,16 @@ double capsule_distance(const Capsule& a, const Capsule& b){
     // shortest distance between 2 capsule
     double d = segment_segment_distance(a.from_world, a.to_world,b.from_world, b.to_world);
      double dist= (d - a.radius - b.radius);
-     std::cout << "[DEBUG] Distance between " << a.id << " and " << b.id
-              << ": raw segment dist = " << d
-              << ", radius sum = " << a.radius + b.radius
-              << ", capsule dist = " << dist << " m" << std::endl;
     return dist;
 }
 
 bool capsule_is_colliding(const Capsule& a, const Capsule& b, double margin) {
-    return capsule_distance(a, b) < margin;
-}
+   double dist = capsule_distance(a, b);
+    if (dist < margin) {
+        std::cout << "[Collision Detected] "
+                  << "Capsule \"" << a.link_id << "\" <-> \"" << b.link_id << "\", "
+                  << "distance = " << dist << ", margin = " << margin << "\n";
+        return true;
+    }
+    return false;
+    }
