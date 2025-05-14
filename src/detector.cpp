@@ -12,20 +12,21 @@ CapsuleCollisionDetector::CapsuleCollisionDetector(const std::string& capsule_js
     {"fr3_link5_main_sc","hand_2"},
     {"fr3_link5_side_sc","hand_2"},
 
-    {"hand_1", "fr3_link0_sc"},
-    {"hand_1", "fr3_link1_sc"},
-    {"hand_1", "fr3_link2_sc"},
-    {"hand_1", "fr3_link3_sc"},
-    {"hand_1", "fr3_link4_sc"},
-    {"hand_1", "fr3_link5_main_sc"},
-    {"hand_1", "fr3_link5_side_sc"},
+    {"fr3_link0_sc","hand_1"},
+    {"fr3_link1_sc","hand_1"},
+    {"fr3_link2_sc","hand_1"},
+    {"fr3_link3_sc","hand_1"},
+    {"fr3_link4_sc","hand_1"},
+    {"fr3_link5_main_sc","hand_1"},
+    {"fr3_link5_side_sc","hand_1"},
 
-    {"fr3_link6_sc", "fr3_link0_sc"},
-    {"fr3_link6_sc", "fr3_link1_sc"},
-    {"fr3_link6_sc", "fr3_link2_sc"},
 
-    {"fr3_link7_main_sc", "fr3_link0_sc"},
-    {"fr3_link7_main_sc", "fr3_link1_sc"},
+    {"fr3_link0_sc", "fr3_link6_sc"},
+    {"fr3_link1_sc", "fr3_link6_sc"},
+    {"fr3_link2_sc", "fr3_link6_sc"},
+
+    {"fr3_link0_main_sc", "fr3_link7_sc"},
+    {"fr3_link1_main_sc", "fr3_link7_sc"},
     
   };
 }

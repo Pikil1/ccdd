@@ -15,8 +15,8 @@
 
 int main() {
   
-  const std::string urdf_path = "data/fr3_capsule.urdf";
-  const std::string capsule_json_path = "data/capsule_config.json";
+  const std::string urdf_path = "../data/fr3_capsule.urdf";
+  const std::string capsule_json_path = "../data/capsule_config.json";
 
   // 1. Load robot model from URDF
   pinocchio::Model model;
@@ -27,12 +27,15 @@ int main() {
   CapsuleCollisionDetector detector(capsule_json_path);
   const std::vector<Capsule>& capsules = detector.get_capsules();
   // 3. Load the joint_pose from JSON
-  const std::string joint_json_path = "data/joint_value.json";
+  const std::string joint_json_path = "../data/joint_value.json";
   Eigen::VectorXd q = load_joint_values_from_json(joint_json_path, model.nq);
-
+auto start_time = std::chrono::high_resolution_clock::now();
   // 4. Perform FK and update world poses
   pinocchio::forwardKinematics(model, data, q);
   pinocchio::updateFramePlacements(model, data);
+
+
+
 
  std::unordered_map<std::string, Eigen::Isometry3d> link_poses;
 
@@ -53,11 +56,11 @@ int main() {
   detector.update_poses(link_poses);
 
   // 6. Check for collisions
-  auto start_time = std::chrono::high_resolution_clock::now();
+ 
   if (detector.has_collision(1e-4)) {
     std::cout << "Collision detected!" << std::endl;
     auto end_time = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time);
+    auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end_time - start_time);
     std::cout << "[INFO] Collision check took " << duration.count() << " microseconds." << std::endl;
   } else {
     std::cout << " No collision detected." << std::endl;

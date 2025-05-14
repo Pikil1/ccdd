@@ -53,6 +53,7 @@ CMakeFiles/collisionchecker.dir/src/capsule.cpp.o: ../src/capsule.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -133,8 +134,11 @@ CMakeFiles/collisionchecker.dir/src/capsule.cpp.o: ../src/capsule.cpp \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -143,6 +147,8 @@ CMakeFiles/collisionchecker.dir/src/capsule.cpp.o: ../src/capsule.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -253,6 +259,8 @@ CMakeFiles/collisionchecker.dir/src/capsule.cpp.o: ../src/capsule.cpp \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -576,6 +584,7 @@ CMakeFiles/collisionchecker.dir/src/collisionchecker.cpp.o: ../src/collisionchec
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -681,8 +690,11 @@ CMakeFiles/collisionchecker.dir/src/collisionchecker.cpp.o: ../src/collisionchec
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -691,6 +703,8 @@ CMakeFiles/collisionchecker.dir/src/collisionchecker.cpp.o: ../src/collisionchec
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -797,6 +811,8 @@ CMakeFiles/collisionchecker.dir/src/collisionchecker.cpp.o: ../src/collisionchec
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -952,6 +968,7 @@ CMakeFiles/collisionchecker.dir/src/collisionchecker.cpp.o: ../src/collisionchec
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/boost/config/detail/select_platform_config.hpp \
@@ -2837,6 +2854,7 @@ CMakeFiles/collisionchecker.dir/src/detector.cpp.o: ../src/detector.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -2917,8 +2935,11 @@ CMakeFiles/collisionchecker.dir/src/detector.cpp.o: ../src/detector.cpp \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -2927,6 +2948,8 @@ CMakeFiles/collisionchecker.dir/src/detector.cpp.o: ../src/detector.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3037,6 +3060,8 @@ CMakeFiles/collisionchecker.dir/src/detector.cpp.o: ../src/detector.cpp \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -3286,6 +3311,7 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3293,7 +3319,9 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -3349,6 +3377,7 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception_ptr.h \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -3412,6 +3441,8 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3476,6 +3507,8 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -4291,8 +4324,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/boost/fusion/container/list/detail/next_impl.hpp:
 
-/usr/include/boost/fusion/container/list/detail/deref_impl.hpp:
-
 /usr/include/boost/fusion/container/list/cons_iterator.hpp:
 
 /usr/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:
@@ -4330,8 +4361,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/boost/fusion/iterator/next.hpp:
 
 /usr/include/boost/fusion/support/iterator_base.hpp:
-
-/usr/include/boost/fusion/support/is_iterator.hpp:
 
 /usr/include/boost/fusion/iterator/equal_to.hpp:
 
@@ -5179,6 +5208,20 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/boost/iterator/detail/facade_iterator_category.hpp:
 
+/usr/include/boost/type_traits/add_reference.hpp:
+
+/usr/include/boost/fusion/view/single_view/detail/next_impl.hpp:
+
+/usr/include/boost/assert/source_location.hpp:
+
+/usr/include/boost/type_traits/add_lvalue_reference.hpp:
+
+/usr/include/boost/type_traits/is_abstract.hpp:
+
+/usr/include/boost/type_traits/is_arithmetic.hpp:
+
+/usr/include/boost/type_traits/intrinsics.hpp:
+
 /usr/include/nlohmann/detail/macro_unscope.hpp:
 
 /usr/include/boost/mpl/aux_/front_impl.hpp:
@@ -5205,8 +5248,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
-/usr/include/boost/type_traits/is_abstract.hpp:
-
 /usr/include/nlohmann/byte_container_with_subtype.hpp:
 
 /usr/include/boost/bind/bind.hpp:
@@ -5214,10 +5255,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/c++/11/bits/fs_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/boost/core/default_allocator.hpp:
-
-/usr/include/stdint.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
@@ -5239,16 +5276,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
-/usr/include/boost/mpl/aux_/pop_back_impl.hpp:
-
-/usr/include/boost/iostreams/flush.hpp:
-
-/opt/openrobots/include/pinocchio/multibody/joint/joints.hpp:
-
-/opt/openrobots/include/pinocchio/deprecated-namespaces.hpp:
-
-/usr/include/c++/11/ratio:
-
 /usr/include/nlohmann/detail/input/lexer.hpp:
 
 /usr/include/boost/fusion/iterator/mpl/fusion_iterator.hpp:
@@ -5268,16 +5295,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/boost/fusion/algorithm/query/find_if_fwd.hpp:
 
 /usr/include/boost/mpl/vector/aux_/empty.hpp:
-
-/usr/include/boost/variant/detail/std_hash.hpp:
-
-/usr/include/nlohmann/detail/iterators/iterator_traits.hpp:
-
-/usr/include/boost/iostreams/detail/is_dereferenceable.hpp:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h:
-
-/usr/include/c++/11/bits/random.h:
 
 /usr/include/c++/11/unordered_map:
 
@@ -5353,14 +5370,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
-/opt/openrobots/include/pinocchio/config.hpp:
-
-/usr/include/boost/type_traits/is_union.hpp:
-
-/usr/include/boost/numeric/conversion/converter_policies.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /usr/include/nlohmann/detail/output/output_adapters.hpp:
@@ -5402,12 +5411,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
-
-/usr/include/boost/fusion/view/single_view/detail/next_impl.hpp:
-
-/usr/include/boost/assert/source_location.hpp:
-
-/usr/include/boost/type_traits/add_lvalue_reference.hpp:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -5540,6 +5543,8 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/boost/archive/detail/abi_suffix.hpp:
 
 /usr/include/c++/11/bits/valarray_array.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
@@ -5701,6 +5706,12 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/ctime:
 
+/usr/include/boost/variant/detail/apply_visitor_delayed.hpp:
+
+/usr/include/boost/type_traits/is_array.hpp:
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
+
 /usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
 
 ../include/capsule.hpp:
@@ -5793,8 +5804,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
-/usr/include/boost/type_traits/add_reference.hpp:
-
 /usr/include/boost/move/detail/type_traits.hpp:
 
 /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
@@ -5820,10 +5829,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
-
-/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
-
-/usr/include/unistd.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
@@ -5852,8 +5857,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/nlohmann/detail/meta/call_std/begin.hpp:
 
 /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseMap.h:
 
 /usr/include/boost/type_traits/has_minus.hpp:
 
@@ -5907,6 +5910,32 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
+/usr/include/boost/function_types/components.hpp:
+
+/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h:
+
+/usr/include/boost/iostreams/detail/forward.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/linux/version.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/boost/fusion/support/is_iterator.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/strings.h:
+
 /usr/include/boost/aligned_storage.hpp:
 
 /usr/include/stdlib.h:
@@ -5924,8 +5953,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/boost/mpl/bool.hpp:
 
 /usr/include/boost/mpl/vector/vector20.hpp:
-
-/usr/include/strings.h:
 
 /usr/include/boost/concept/detail/has_constraints.hpp:
 
@@ -5954,10 +5981,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/boost/iostreams/operations.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Assign.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/boost/preprocessor/repetition/enum_shifted.hpp:
 
@@ -6003,20 +6026,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
 
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/boost/throw_exception.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -6030,12 +6039,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/eigen3/Eigen/src/Core/NestByValue.h:
 
 /usr/include/boost/preprocessor/facilities/identity.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/boost/iostreams/detail/forward.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/locale.h:
 
@@ -6083,6 +6086,28 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/boost/mpl/list/aux_/push_back.hpp:
 
+/usr/include/boost/type_traits/aligned_storage.hpp:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/11/iomanip:
+
+/usr/include/boost/smart_ptr/allocate_shared_array.hpp:
+
+/usr/include/c++/11/cctype:
+
+/usr/include/boost/type_traits/is_member_object_pointer.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/Redux.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/usr/include/boost/mpl/iterator_category.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
@@ -6129,10 +6154,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/type_traits:
 
-/opt/openrobots/include/pinocchio/deprecated.hpp:
-
-/usr/include/boost/mpl/vector/aux_/tag.hpp:
-
 /usr/include/c++/11/tuple:
 
 /opt/openrobots/include/pinocchio/algorithm/contact-cholesky.hxx:
@@ -6163,6 +6184,10 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/nlohmann/detail/input/binary_reader.hpp:
 
+/usr/include/boost/fusion/container/list/detail/deref_impl.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
 /usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/boost/type_index.hpp:
@@ -6182,12 +6207,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
 /usr/include/boost/mpl/arg_fwd.hpp:
-
-/usr/include/boost/type_traits/has_less.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
-
-/usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
@@ -6232,10 +6251,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 
 /usr/include/eigen3/Eigen/OrderingMethods:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h:
 
@@ -6289,18 +6304,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/boost/mpl/iterator_category.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/boost/type_traits/is_member_object_pointer.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/Redux.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/11/bits/range_access.h:
-
 /usr/include/eigen3/Eigen/src/Core/Solve.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -6347,6 +6350,20 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/eigen3/Eigen/Core:
 
+/usr/include/c++/11/debug/debug.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/opt/openrobots/include/pinocchio/serialization/fwd.hpp:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/system_error:
+
 /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
@@ -6368,14 +6385,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
 /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/opt/openrobots/include/pinocchio/serialization/fwd.hpp:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/11/system_error:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -6437,8 +6446,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/bits/unordered_map.h:
 
-/usr/include/boost/type_traits/is_arithmetic.hpp:
-
 /usr/include/boost/numeric/conversion/detail/is_subranged.hpp:
 
 /usr/include/c++/11/ext/alloc_traits.h:
@@ -6446,6 +6453,8 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/cstdint:
 
@@ -6459,6 +6468,14 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h:
 
+/usr/include/c++/11/climits:
+
+/usr/include/nlohmann/detail/output/serializer.hpp:
+
+/usr/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/include/c++/11/new:
+
 /usr/include/nlohmann/detail/meta/detected.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Array.h:
@@ -6469,19 +6486,17 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
-/usr/include/c++/11/debug/debug.h:
+/usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
-/usr/include/c++/11/bits/shared_ptr.h:
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
-/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
+/usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+/usr/include/boost/mpl/list/aux_/empty.hpp:
 
-/usr/include/boost/function_types/components.hpp:
+/usr/include/boost/type_traits/remove_cv.hpp:
 
-/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
-
-/usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h:
+/usr/include/boost/mpl/aux_/config/has_apply.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
@@ -6499,6 +6514,34 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/boost/type_traits/conditional.hpp:
 
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/boost/throw_exception.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/boost/type_traits/detail/bool_trait_undef.hpp:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/boost/preprocessor/detail/is_binary.hpp:
+
+/usr/include/boost/mpl/pop_back.hpp:
+
+/opt/openrobots/include/pinocchio/multibody/joint/joint-universal.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
 /usr/include/boost/iterator/detail/config_undef.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -6515,15 +6558,19 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
-/usr/include/boost/type_traits/aligned_storage.hpp:
+/usr/include/boost/type_traits/has_less.hpp:
 
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
+/usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/c++/11/iomanip:
+/usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
-/usr/include/boost/smart_ptr/allocate_shared_array.hpp:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/c++/11/cctype:
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/boost/smart_ptr/detail/spinlock.hpp:
 
@@ -6541,6 +6588,8 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/bits/fs_path.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
 /usr/include/alloca.h:
@@ -6551,11 +6600,27 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /opt/openrobots/include/pinocchio/fwd.hpp:
 
+/usr/include/c++/11/cwctype:
+
 /usr/include/eigen3/Eigen/src/Core/util/Macros.h:
 
 /usr/include/boost/preprocessor/logical/compl.hpp:
 
 /usr/include/stdio.h:
+
+/usr/include/boost/variant/detail/std_hash.hpp:
+
+/usr/include/nlohmann/detail/iterators/iterator_traits.hpp:
+
+/usr/include/boost/iostreams/detail/is_dereferenceable.hpp:
+
+/usr/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h:
+
+/usr/include/c++/11/bits/random.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/boost/fusion/algorithm/query/detail/count_if.hpp:
 
@@ -6681,6 +6746,8 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/boost/preprocessor/iterate.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
@@ -6727,15 +6794,9 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/boost/preprocessor/slot/slot.hpp:
-
-/usr/include/boost/mpl/pop_back.hpp:
-
-/opt/openrobots/include/pinocchio/multibody/joint/joint-universal.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/c++/11/bits/specfun.h:
 
 /usr/include/boost/iostreams/input_sequence.hpp:
 
@@ -6760,6 +6821,8 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/boost/type_traits/declval.hpp:
+
+/usr/include/string.h:
 
 /usr/include/boost/serialization/array_wrapper.hpp:
 
@@ -6798,6 +6861,10 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/boost/mpl/O1_size.hpp:
+
+/usr/include/limits.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
 
@@ -6847,10 +6914,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h:
 
-/opt/openrobots/include/pinocchio/spatial/log.hxx:
-
-/opt/openrobots/include/pinocchio/deprecation.hpp:
-
 /usr/include/c++/11/exception:
 
 /usr/include/boost/visit_each.hpp:
@@ -6895,8 +6958,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/stdexcept:
 
-/usr/include/c++/11/cwctype:
-
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/nlohmann/detail/value_t.hpp:
@@ -6907,8 +6968,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
 /usr/include/boost/mpl/list/aux_/numbered.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/EigenBase.h:
@@ -6918,28 +6977,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
-
-/usr/include/boost/type_traits/detail/bool_trait_undef.hpp:
-
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
-/usr/include/limits.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
-
-/usr/include/boost/mpl/list/aux_/empty.hpp:
-
-/usr/include/boost/type_traits/remove_cv.hpp:
-
-/usr/include/boost/mpl/aux_/config/has_apply.hpp:
 
 /usr/include/c++/11/bits/mask_array.h:
 
@@ -6954,14 +6991,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/11/array:
-
-/usr/include/nlohmann/detail/output/serializer.hpp:
-
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
-
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/climits:
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
@@ -6983,11 +7012,13 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/boost/preprocessor/control/iif.hpp:
 
-/usr/include/boost/fusion/container/list.hpp:
+/usr/include/boost/core/default_allocator.hpp:
 
-/opt/openrobots/include/pinocchio/warning.hpp:
+/usr/include/stdint.h:
 
-/usr/include/boost/mpl/aux_/largest_int.hpp:
+/usr/include/boost/mpl/vector/aux_/tag.hpp:
+
+/opt/openrobots/include/pinocchio/deprecated.hpp:
 
 /usr/include/boost/iostreams/detail/bool_trait_def.hpp:
 
@@ -7010,12 +7041,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/boost/fusion/view/transform_view/detail/next_impl.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/boost/fusion/adapted/mpl/detail/end_impl.hpp:
-
-/opt/openrobots/include/pinocchio/macros.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
 /usr/include/c++/11/bits/fs_fwd.h:
 
@@ -7040,8 +7065,6 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /opt/openrobots/include/pinocchio/core/unary-op.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/boost/fusion/mpl/empty.hpp:
 
@@ -7069,11 +7092,45 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/bits/std_abs.h:
 
-/usr/include/string.h:
+/usr/include/boost/fusion/adapted/mpl/detail/end_impl.hpp:
 
-/usr/include/linux/version.h:
+/opt/openrobots/include/pinocchio/macros.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/opt/openrobots/include/pinocchio/spatial/log.hxx:
+
+/opt/openrobots/include/pinocchio/deprecation.hpp:
+
+/usr/include/eigen3/Eigen/src/SparseCore/SparseMap.h:
+
+/usr/include/boost/mpl/aux_/pop_back_impl.hpp:
+
+/usr/include/boost/iostreams/flush.hpp:
+
+/opt/openrobots/include/pinocchio/multibody/joint/joints.hpp:
+
+/usr/include/c++/11/ratio:
+
+/opt/openrobots/include/pinocchio/deprecated-namespaces.hpp:
+
+/usr/include/boost/fusion/container/list.hpp:
+
+/usr/include/boost/mpl/aux_/largest_int.hpp:
+
+/opt/openrobots/include/pinocchio/warning.hpp:
+
+/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
+
+/usr/include/unistd.h:
+
+/opt/openrobots/include/pinocchio/config.hpp:
+
+/usr/include/boost/type_traits/is_union.hpp:
+
+/usr/include/boost/numeric/conversion/converter_policies.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/boost/iostreams/imbue.hpp:
 
@@ -7429,9 +7486,9 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
-/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
-
 /usr/include/boost/iterator/interoperable.hpp:
+
+/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
 /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h:
 
@@ -7583,9 +7640,9 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
-/usr/include/boost/mpl/aux_/fold_impl_body.hpp:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-/usr/include/boost/type_traits/intrinsics.hpp:
+/usr/include/boost/mpl/aux_/fold_impl_body.hpp:
 
 /usr/include/boost/fusion/view/reverse_view/detail/key_of_impl.hpp:
 
@@ -8222,9 +8279,3 @@ CMakeFiles/collisionchecker.dir/src/joint_load.cpp.o: ../src/joint_load.cpp \
 /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp:
 
 /usr/include/boost/range/iterator_range_core.hpp:
-
-/usr/include/boost/variant/detail/apply_visitor_delayed.hpp:
-
-/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
-
-/usr/include/boost/type_traits/is_array.hpp:

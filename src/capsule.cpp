@@ -83,9 +83,9 @@ double capsule_distance(const Capsule& a, const Capsule& b){
 bool capsule_is_colliding(const Capsule& a, const Capsule& b, double margin) {
    double dist = capsule_distance(a, b);
     if (dist < margin) {
-        std::cout << "[Collision Detected] "
-                  << "Capsule \"" << a.link_id << "\" <-> \"" << b.link_id << "\", "
-                  << "distance = " << dist << ", margin = " << margin << "\n";
+       // std::cout << "[Collision Detected] "
+                 // << "Capsule \"" << a.link_id << "\" <-> \"" << b.link_id << "\", "
+                 // << "distance = " << dist << ", margin = " << margin << "\n";
         return true;
     }
     return false;
