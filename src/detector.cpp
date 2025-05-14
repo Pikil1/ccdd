@@ -4,13 +4,13 @@ CapsuleCollisionDetector::CapsuleCollisionDetector(const std::string& capsule_js
   capsules_ = load_capsules_from_json(capsule_json_path);
 
   candidate_pairs_ = {
-    {"hand_2", "fr3_link0_sc"},
-    {"hand_2", "fr3_link1_sc"},
-    {"hand_2", "fr3_link2_sc"},
-    {"hand_2", "fr3_link3_sc"},
-    {"hand_2", "fr3_link4_sc"},
-    {"hand_2", "fr3_link5_main_sc"},
-    {"hand_2", "fr3_link5_side_sc"},
+    {"fr3_link0_sc","hand_2"},
+    {"fr3_link1_sc","hand_2"},
+    {"fr3_link2_sc","hand_2"},
+    {"fr3_link3_sc","hand_2"},
+    {"fr3_link4_sc","hand_2"},
+    {"fr3_link5_main_sc","hand_2"},
+    {"fr3_link5_side_sc","hand_2"},
 
     {"hand_1", "fr3_link0_sc"},
     {"hand_1", "fr3_link1_sc"},
@@ -53,7 +53,7 @@ std::vector<std::pair<int, int>> CapsuleCollisionDetector::get_colliding_pairs(d
   for (const auto& a : capsules_) {
     for (const auto& b : capsules_) {
       if (a.id >= b.id) continue;
-      if (!should_check(a.link_name, b.link_name)) continue;
+      if (!should_check(a.link_id, b.link_id)) continue;
       if (capsule_is_colliding(a, b, margin)) {
         results.emplace_back(a.id, b.id);
       }
@@ -72,7 +72,7 @@ bool CapsuleCollisionDetector::has_collision(double margin) const {
         for (size_t j = i + 1; j < capsules_.size(); ++j) {
             const Capsule& a = capsules_[i];
             const Capsule& b = capsules_[j];
-            if (should_check(a.link_name, b.link_name)) {
+            if (should_check(a.link_id, b.link_id)) {
                 if (capsule_is_colliding(a, b, margin)) {
                     return true;
                 }

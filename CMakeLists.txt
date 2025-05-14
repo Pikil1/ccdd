@@ -12,7 +12,7 @@ set(PINOCCHIO_LIBRARY_DIR "/opt/openrobots/lib")
 
 include_directories(
     ${PROJECT_SOURCE_DIR}/include
-    ${PROJECT_SOURCE_DIR}/third_party            # nlohmann/json.hpp 如果你用了
+    ${PROJECT_SOURCE_DIR}/third_party           
     ${PINOCCHIO_INCLUDE_DIR}
 )
 
@@ -38,5 +38,5 @@ add_executable(collisionchecker ${SOURCES})
 target_link_libraries(collisionchecker
     ${PINOCCHIO_LIBRARY_DIR}/libpinocchio_default.so
     ${PINOCCHIO_LIBRARY_DIR}/libpinocchio_parsers.so
-    ${PINOCCHIO_LIBRARY_DIR}/libpinocchio_collision.so   # 可选，如果你用 GeometryModel
+    ${PINOCCHIO_LIBRARY_DIR}/libpinocchio_collision.so   
 )

@@ -4,6 +4,7 @@
 
 struct Capsule {
   std::string link_name;
+  std::string link_id;
   Eigen::Vector3d from_local;
   Eigen::Vector3d to_local;
   double radius;

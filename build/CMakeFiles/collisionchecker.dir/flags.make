@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/yuan/self_collision/include -I/home/yuan/self_collision/third_party -I/opt/openrobots/include -I/usr/include/eigen3
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -g -std=gnu++17
 

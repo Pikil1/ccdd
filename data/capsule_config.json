@@ -1,6 +1,7 @@
 [
   {
     "link": "fr3_link0_sc",
+    "id": "fr3_link0_sc",
     "from": [-0.09, 0.0, 0.06],
     "to":   [-0.06, 0.0, 0.06],
     "radius": 0.09
@@ -9,6 +10,7 @@
 
 {
   "link": "fr3_link1_sc",
+  "id": "fr3_link1_sc",
   "from": [0.0, 0.0, -0.333],
   "to":   [0.0, 0.0, -0.05],
   "radius": 0.09
@@ -17,6 +19,7 @@
 
 {
   "link": "fr3_link2_sc",
+  "id": "fr3_link2_sc",
   "from": [0.0, 0.0, -0.06],
   "to":   [0.0, 0.0,  0.06],
   "radius": 0.09
@@ -25,6 +28,7 @@
 
 {
   "link": "fr3_link3_sc",
+  "id": "fr3_link3_sc",
   "from": [0.0, 0.0, -0.22],
   "to":   [0.0, 0.0, -0.07],
   "radius": 0.09
@@ -32,19 +36,22 @@
 
 {
   "link": "fr3_link4_sc",
+  "id": "fr3_link4_sc",
   "from": [0.0, 0.0, -0.06],
   "to":   [0.0, 0.0,  0.06],
   "radius": 0.09
 },
 
 {
-    "link": "fr3_link5_main_sc",
+    "link": "fr3_link5_sc",
+    "id": "fr3_link5_main_sc",
     "from": [0.0, 0.0, -0.31],
     "to":   [0.0, 0.0, -0.21],
     "radius": 0.09
   },
   {
-    "link": "fr3_link5_side_sc",
+    "link": "fr3_link5_sc",
+    "id": "fr3_link5_side_sc",
     "from": [0.0, 0.08, -0.20],
     "to":   [0.0, 0.08, -0.06],
     "radius": 0.055
@@ -52,34 +59,39 @@
 
   {
   "link": "fr3_link6_sc",
+  "id": "fr3_link6_sc",
   "from": [0.0, 0.0, -0.07],
   "to":   [0.0, 0.0,  0.01],
   "radius": 0.08
 },
 
 {
-  "link": "fr3_link7_main_sc",
+  "link": "fr3_link7_sc",
+  "id": "fr3_link7_main_sc",
   "from": [0.0, 0.0, -0.06],
   "to":   [0.0, 0.0,  0.08],
   "radius": 0.07
 },
 
 {
-  "link": "fr3_link7_side_sc",
+  "link": "fr3_link7_sc",
+  "id": "fr3_link7_side_sc",
   "from": [0.055, 0.0, 0.082],
   "to":   [0.065, 0.0, 0.082],
   "radius": 0.06
 },
 
 {
-    "link": "hand_1_sc",
+    "link": "fr3_hand_sc",
+    "id": "hand_1",
     "from": [0.0, -0.05, 0.04],
     "to":   [0.0,  0.05, 0.04],
     "radius": 0.07
   },
 
   {
-    "link": "hand_2_sc",
+    "link": "fr3_hand_sc",
+    "id": "hand_2",
     "from": [0.0, -0.05, 0.1],
     "to":   [0.0,  0.05, 0.1],
     "radius": 0.05

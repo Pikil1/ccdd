@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Collision Checker",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/collisionchecker", // <-- 可执行文件路径
+      "args": [],  // 如果你要传入参数可以在这里写 ["arg1", "arg2"]
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build",  // 如果你想自动构建，可以加这个
+      "miDebuggerPath": "/usr/bin/gdb"  // 确保 gdb 安装了
+    }
+  ]
+}

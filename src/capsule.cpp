@@ -3,7 +3,7 @@
 #include <nlohmann/json.hpp>
 #include <algorithm>
 #include <cmath>
-
+#include <iostream>
 std::vector<Capsule> load_capsules_from_json(const std::string& path) {
     //create a vector structure to load the json file
     std::ifstream file;
@@ -17,6 +17,7 @@ std::vector<Capsule> load_capsules_from_json(const std::string& path) {
     for (const auto& item : j) {
         Capsule c;
         c.link_name = item["link"];
+        c.link_id=item["id"];
         c.from_local = Eigen::Vector3d(
             item["from"][0], item["from"][1], item["from"][2]);
         c.to_local = Eigen::Vector3d(
@@ -31,9 +32,15 @@ std::vector<Capsule> load_capsules_from_json(const std::string& path) {
 
 void update_capsule_world_pose(std::vector<Capsule>& capsules, const std::unordered_map<std::string, Eigen::Isometry3d>& link_poses){
     //Translate the capsule from body coordinate to the world coordinate
-
+  
     for (auto& cap : capsules) {
-        const auto& T = link_poses.at(cap.link_name);
+        auto it = link_poses.find(cap.link_id);
+    if (it == link_poses.end()) {
+        std::cerr << "[ERROR] Pose not found for link: " << cap.link_id << std::endl;
+        continue;
+    }
+
+        const auto& T = link_poses.at(cap.link_id);
         cap.from_world = T * cap.from_local;
         cap.to_world   = T * cap.to_local;
     }
@@ -69,7 +76,12 @@ static double segment_segment_distance( const Eigen::Vector3d& p1, const Eigen::
 double capsule_distance(const Capsule& a, const Capsule& b){
     // shortest distance between 2 capsule
     double d = segment_segment_distance(a.from_world, a.to_world,b.from_world, b.to_world);
-     return (d - a.radius - b.radius);
+     double dist= (d - a.radius - b.radius);
+     std::cout << "[DEBUG] Distance between " << a.id << " and " << b.id
+              << ": raw segment dist = " << d
+              << ", radius sum = " << a.radius + b.radius
+              << ", capsule dist = " << dist << " m" << std::endl;
+    return dist;
 }
 
 bool capsule_is_colliding(const Capsule& a, const Capsule& b, double margin) {
