@@ -1,0 +1,30 @@
+[
+  {
+    "file": "five_spheres_speed_0p4_noise_6mm.mp4",
+    "sha256": "e6e8134dafbd862bc9e625459ed0846457d904f9e6f9fe9cad5986e35471505f",
+    "bytes": 1862450,
+    "frames": 751,
+    "duration_s": 25.03,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "codec": "h264",
+    "full_decode_passed": true
+  },
+  {
+    "file": "five_spheres_speed_1p2_noise_6mm.mp4",
+    "sha256": "a3cde1cb909581432ed4da478f9f926355c0c4cc3297bed10b5e753434f8cad0",
+    "bytes": 2953226,
+    "frames": 1112,
+    "duration_s": 37.06,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "codec": "h264",
+    "full_decode_passed": true
+  }
+]

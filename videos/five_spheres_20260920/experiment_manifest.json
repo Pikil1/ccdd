@@ -1,0 +1,272 @@
+{
+  "algorithms": [
+    "facbf_adaptive",
+    "fasm",
+    "neo",
+    "mppi",
+    "ds"
+  ],
+  "benchmark_success_definition": "complete_audited_goal_entry_by_deadline_collision_free_v3",
+  "comparison_speed_range_mps": [
+    0.2,
+    1.2
+  ],
+  "controller_input_contract": "timestamped_xyz_positions_only",
+  "created_utc": "2026-09-20T14:40:57.259964+00:00",
+  "ds_cdsm_model": "/home/roboticslab/NEO_simulation/external_baselines/ds/models/fr3_complete_cdsm_vmax0p60_wmax2p00_20260824.txt",
+  "ds_distance_scale_m": 0.3,
+  "ds_influence_distance_m": 0.6,
+  "ds_low_level": "computed_torque",
+  "ds_max_angular_speed_radps": 2.0,
+  "ds_max_linear_speed_mps": 0.6,
+  "ds_model": "/home/roboticslab/NEO_simulation/outputs/five_sphere_videos_20260920/historical_protocol/ds_runtime/models/fr3.xml",
+  "ds_reactivity": 1.0,
+  "ds_safety_distance_m": 0.02,
+  "duration_s": 20.0,
+  "estimated_speed_limit_mps": 4.0,
+  "estimator_window_samples": 141,
+  "evaluation_dt_s": 0.005,
+  "evaluation_metrics_schema_version": 2,
+  "evaluation_safety_distance_m": 0.02,
+  "facbf_adaptive_ee_speed_directional_projection": false,
+  "facbf_adaptive_ee_speed_enabled": true,
+  "facbf_adaptive_ee_speed_fall_rate_mps2": 5.0,
+  "facbf_adaptive_ee_speed_high_viability_margin_m": 0.4,
+  "facbf_adaptive_ee_speed_low_viability_margin_m": 0.2,
+  "facbf_adaptive_ee_speed_max_mps": 0.6,
+  "facbf_adaptive_ee_speed_min_mps": 0.2,
+  "facbf_adaptive_ee_speed_normal_closing_governor": false,
+  "facbf_adaptive_ee_speed_rise_rate_mps2": 0.5,
+  "facbf_cbf_rho": 0.22,
+  "facbf_contact_bundle_activation_distance_m": 0.25,
+  "facbf_contact_bundle_add_gap_m": 0.01,
+  "facbf_contact_bundle_drop_gap_m": 0.02,
+  "facbf_contact_bundle_max_links": 2,
+  "facbf_distance_error_bound_m": 0.026,
+  "facbf_ee_speed_limit_mps": 0.6,
+  "facbf_estimator_acceleration_bound_mps2": 0.0,
+  "facbf_fixed_ee_speed_limit_mps": 0.35,
+  "facbf_horizon_goal_weight": 25000.0,
+  "facbf_joint_centering_weight": 200.0,
+  "facbf_joint_position_damper_gain": 10.0,
+  "facbf_joint_position_limit_enabled": true,
+  "facbf_joint_position_margin_rad": 0.005,
+  "facbf_measurement_age_bounds_by_delay_s": {
+    "0": 0.0
+  },
+  "facbf_method": "reachable_recoverability_spline_position_only",
+  "facbf_obstacle_acceleration_bound_mps2": 0.5,
+  "facbf_obstacle_speed_bound_mps": 1.2,
+  "facbf_osqp_first_attempt_iteration_cap": 500,
+  "facbf_osqp_workspace_reuse_enabled": true,
+  "facbf_qp_warm_start_enabled": true,
+  "facbf_relative_speed_error_bound_mps": 0.172,
+  "facbf_risk_active_set_enabled": true,
+  "facbf_risk_max_spheres": 2,
+  "facbf_risk_sphere_activation_margin_m": 0.2,
+  "facbf_risk_sphere_add_band_m": 0.04,
+  "facbf_risk_sphere_drop_band_m": 0.06,
+  "facbf_robust_error_bound_mode": "sensor_certified_normal_projection",
+  "facbf_safety_distance_m": 0.02,
+  "facbf_sensor_certified_bounds_enabled": true,
+  "facbf_speed_error_certification": "normal_projection",
+  "facbf_spline_control_points_override": null,
+  "facbf_successor_recoverability_audit_enabled": false,
+  "facbf_successor_recoverability_audit_stride": 1,
+  "facbf_variant": "paper",
+  "facbf_viability_distance_floor_m": 0.0,
+  "facbf_viability_relative_speed_floor_mps": 0.1,
+  "facbf_z_objective_distance_gate_enabled": false,
+  "facbf_z_objective_full_distance_m": 0.25,
+  "facbf_z_objective_full_viability_margin_m": 0.0,
+  "facbf_z_objective_influence_distance_m": 0.6,
+  "facbf_z_objective_influence_viability_margin_m": 0.06,
+  "facbf_z_objective_min_scale": 0.001,
+  "facbf_z_objective_viability_gate_enabled": true,
+  "fasm_action_count": 2,
+  "fasm_compensate_measurement_age": false,
+  "fasm_constraint_tolerance": 2e-05,
+  "fasm_control_dt_s": 0.04,
+  "fasm_control_weight": 50.0,
+  "fasm_enforce_predicted_joint_limits": true,
+  "fasm_gamma_initial": 0.001,
+  "fasm_gamma_lower_bound": 0.0001,
+  "fasm_gamma_weight_critical_point": 5000.0,
+  "fasm_gamma_weight_end_effector": 5000.0,
+  "fasm_gpio_gains": [
+    5.0,
+    10.0,
+    2.0
+  ],
+  "fasm_include_end_effector_constraints": true,
+  "fasm_joint_speed_limit_radps": 0.6,
+  "fasm_observer_error_margin_m": 0.0,
+  "fasm_observer_initial_error_bound_m": 0.0,
+  "fasm_observer_phi0": 5.33,
+  "fasm_prediction_horizon": 1,
+  "fasm_safety_distance_m": 0.02,
+  "fasm_solver_ftol": 1e-08,
+  "fasm_solver_max_iterations": 250,
+  "fasm_solver_multistart": true,
+  "fasm_terminal_tracking_weight": 4000.0,
+  "fasm_tracking_weight": 2000.0,
+  "goal_m": [
+    0.3,
+    -0.4,
+    0.65
+  ],
+  "goal_tolerance_m": 0.03,
+  "initial_q_rad": [
+    0.17,
+    -0.24,
+    -0.63,
+    -1.26,
+    1.5,
+    2.42,
+    -0.9
+  ],
+  "matched_safety_threshold_m": 0.02,
+  "measurement_delay_levels_s": [
+    0.0
+  ],
+  "measurement_prewarm_window_samples": 141,
+  "measurement_root": "/home/roboticslab/NEO_simulation/outputs/five_sphere_videos_20260920/historical_protocol",
+  "mppi_safety_distance_m": 0.02,
+  "neo_ee_speed_limit_mps": 0.6,
+  "neo_influence_distance_m": 0.5,
+  "neo_kd_pos": 0.0,
+  "neo_kp_pos": 5.0,
+  "neo_safe_distance_m": 0.02,
+  "neo_xi_mps": 0.4,
+  "noise_clip_multiplier": 3.0,
+  "physics_dt_s": 0.001,
+  "plant_integrator": {
+    "fasm": "implicitfast",
+    "others": "Euler"
+  },
+  "position_noise_std_levels_m": [
+    0.006
+  ],
+  "purpose": "Fresh reproduction of historical comparison settings; integrators differ across methods",
+  "repeats": 1,
+  "schema_version": 22,
+  "sensor_dt_s": 0.005,
+  "source_sha256": {
+    "benchmark_runner": "7861e3a5b6c3d9f037dfbadf7f351ef3196e470bdc15f1eab8d4a27cdfb7d170",
+    "canonical_model": "d4550b68a6215996791b688e54b6d1d653693e79963e0f1bd2b7c49e971032d9",
+    "canonical_urdf": "fd62d7d9f4c4aa65c5a67225b9e1e01b47d150997988b06f2493be6bab6646b9",
+    "ds_cdsm_model": "b6f4bf12edd7f74e147d96300ff7df85a2813e2e359af69f51174dfb14c61b8c",
+    "ds_original_main": "386fc454fe89920be28f837b09295ba4b50f0fe74cc95997af7610adb7c7e578",
+    "ds_position_only_binary": "b38cd57bc2e981c70e8ae064d1360710007a19d1c2ba1b61287af58d278538e0",
+    "ds_position_only_main": "76bcea7b676eb17b9a60aacbfb86a3a44f36c62b775654ed4ae2fae2da8b1793",
+    "facbf_adaptive_reference_speed": "80325575707489e15a749e404f5c8ddc2c4af964a98513e4c18e931c739debad",
+    "facbf_contact_active_set": "f40c80f707ef8c93c24249c479c1da8090cf6a04136fdd4b7f2b14a197e667fc",
+    "facbf_main": "995c5d332976a47e863ef5e4dd46b281fa946df762f9adaef43bcb103e3f9c8e",
+    "facbf_method_presets": "6a92038f96de78fcb72d7980c384ecde10a031b00029bb73ecbe76396d2b32b4",
+    "facbf_obstacle_estimator": "5b9140307fa3852eedfb16611beaff2621fe8c282e1cdc667ecc393a8c3347fb",
+    "facbf_qp": "fc1140896ea4b579a69ddf171a5c2126a7b4de4bf3874cd3095b9aae050be721",
+    "fasm_controller": "f631a964428a595ea1d8a201ebfa3a3ed9c76d8f747bced7fa3ec60719d71b3d",
+    "fasm_entrypoint": "b762b2b07a44d6ca206047a13f93ad8eb2201ab823e39f99d0f0dfd713fc41dd",
+    "fasm_gpio": "f51874d1325b749a7275bb8c424deb208b46c7e7581e6f560452944f4640dab1",
+    "mppi_original_main": "6d84f3f8d6df5ceafa13bfd3efc319a4976eff5f34e59c88be9c1efe999ff35a",
+    "mppi_position_only_binary": "b6ef0929c402b7412cc49f4e4b8b9bcc11b22ef34f898b9b369addd9b2c3c817",
+    "mppi_position_only_main": "785443f081d01d7476ad4d118a38f99cabe19763c96a5683afba1fdf62e2a243",
+    "shared_position_tracker": "0afc24bf5ee9a1d2a0d60070fa1f2819b16d2c07b95df841930f1cc6bfb69ab9",
+    "sphere_layouts": "41bc146722057b8115ef2da733eaac52172bed7176419585aa1c92677097275f"
+  },
+  "speeds_mps": [
+    0.4,
+    1.2
+  ],
+  "sphere_base_starts_m": [
+    [
+      0.037500000000000006,
+      -0.2,
+      0.7375
+    ],
+    [
+      0.15,
+      -0.4,
+      0.525
+    ],
+    [
+      0.3,
+      -0.55,
+      0.6699999999999999
+    ],
+    [
+      0.4125,
+      -0.75,
+      0.7500000000000001
+    ],
+    [
+      0.125,
+      -0.8,
+      0.8500000000000001
+    ]
+  ],
+  "sphere_crossing_y_m": 0.0,
+  "sphere_layout": "blend25",
+  "sphere_radius_m": 0.06,
+  "sphere_reference_speed_mps": 0.8,
+  "sphere_starts_by_speed_m": {
+    "0.4": [
+      [
+        0.037500000000000006,
+        -0.2,
+        0.7375
+      ],
+      [
+        0.15,
+        -0.4,
+        0.525
+      ],
+      [
+        0.3,
+        -0.55,
+        0.6699999999999999
+      ],
+      [
+        0.4125,
+        -0.75,
+        0.7500000000000001
+      ],
+      [
+        0.125,
+        -0.8,
+        0.8500000000000001
+      ]
+    ],
+    "1.2": [
+      [
+        0.037500000000000006,
+        -0.2,
+        0.7375
+      ],
+      [
+        0.15,
+        -0.4,
+        0.525
+      ],
+      [
+        0.3,
+        -0.55,
+        0.6699999999999999
+      ],
+      [
+        0.4125,
+        -0.75,
+        0.7500000000000001
+      ],
+      [
+        0.125,
+        -0.8,
+        0.8500000000000001
+      ]
+    ]
+  },
+  "sphere_sync_crossing": false,
+  "stable_delta_m": 0.005,
+  "stable_duration_s": 1.0,
+  "task_path_metric": "link7_ee_arc_length_through_first_goal_ball_entry"
+}
