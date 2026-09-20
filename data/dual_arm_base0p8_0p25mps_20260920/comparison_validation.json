@@ -1,0 +1,165 @@
+{
+  "matched_baseline_settings": {
+    "runtime_configuration": true,
+    "source_model_sha256": true,
+    "limits": true,
+    "controller": true,
+    "code_sha256": true,
+    "collision_candidates": true,
+    "mounting": true,
+    "goal_world_m": true
+  },
+  "controller_steps": 7200,
+  "geometry_scope": "Triangle meshes, same-arm link index separation >=3; not official capsules",
+  "results": [
+    {
+      "speed_mps": 0.1,
+      "recording": "recordings/fresh_nearest7_no_self_d50mm_z1_base0p8_low_20260919",
+      "self": {
+        "left": {
+          "clearance_mm": 146.04242455602287,
+          "time_s": 4.338999999999784,
+          "links": [
+            5,
+            2
+          ],
+          "q_rad": [
+            2.218160909015892,
+            -0.5377278491062885,
+            0.4055824544749991,
+            -2.34142714556358,
+            0.19015974877238584,
+            3.3092522367372514,
+            -1.0199749596630603
+          ]
+        },
+        "right": {
+          "clearance_mm": 41.004590245456136,
+          "time_s": 8.465000000000748,
+          "links": [
+            5,
+            1
+          ],
+          "q_rad": [
+            -0.625161140016433,
+            -1.6662187544603058,
+            -1.669234092172336,
+            -2.8298815833310305,
+            -0.9038470947526654,
+            4.1970690404770785,
+            -0.010004671650658051
+          ]
+        }
+      },
+      "interarm": {
+        "clearance_mm": 64.38229021014149,
+        "time_s": 20.39300000000194
+      },
+      "measured_peak_left_ee_speed_mps": 0.10004125040811247,
+      "right_below_50mm_intervals_s": [
+        [
+          8.122000000000938,
+          8.905000000000504
+        ]
+      ]
+    },
+    {
+      "speed_mps": 0.25,
+      "recording": "recordings/fresh_nearest7_no_self_d50mm_z1_base0p8_0p25mps_20260920",
+      "self": {
+        "left": {
+          "clearance_mm": 146.0637586102655,
+          "time_s": 1.7289999999999204,
+          "links": [
+            5,
+            2
+          ],
+          "q_rad": [
+            2.2190797342038744,
+            -0.5391667223898933,
+            0.4064564700200998,
+            -2.3413118767879295,
+            0.19000956242318615,
+            3.3094978355715026,
+            -1.0199842826667027
+          ]
+        },
+        "right": {
+          "clearance_mm": 96.25665057836775,
+          "time_s": 3.713999999999702,
+          "links": [
+            5,
+            2
+          ],
+          "q_rad": [
+            -0.9194939533998974,
+            -1.5099133604422308,
+            -1.787287134418463,
+            -2.7975992860716117,
+            2.0093567996927924,
+            1.6488797412316973,
+            -0.15096241810198452
+          ]
+        }
+      },
+      "interarm": {
+        "clearance_mm": 76.4414160024753,
+        "time_s": 13.377999999998025
+      },
+      "measured_peak_left_ee_speed_mps": 0.25004129422823845,
+      "right_below_50mm_intervals_s": []
+    },
+    {
+      "speed_mps": 0.5,
+      "recording": "recordings/fresh_nearest7_no_self_d50mm_z1_base0p8_medium_20260919",
+      "self": {
+        "left": {
+          "clearance_mm": 146.07218462958667,
+          "time_s": 0.8620000000000007,
+          "links": [
+            5,
+            2
+          ],
+          "q_rad": [
+            2.219761086437087,
+            -0.540467911388711,
+            0.4071046724120881,
+            -2.341297885141477,
+            0.18990468220114157,
+            3.3096662033090873,
+            -1.01999046808278
+          ]
+        },
+        "right": {
+          "clearance_mm": 100.3813710383557,
+          "time_s": 2.1219999999998773,
+          "links": [
+            5,
+            2
+          ],
+          "q_rad": [
+            -1.1544372442509463,
+            -1.1808580729206288,
+            -1.9110896303029654,
+            -2.7716466743578354,
+            1.8077757893103927,
+            1.6169297715602535,
+            -0.22479436978591189
+          ]
+        }
+      },
+      "interarm": {
+        "clearance_mm": 77.27406170575718,
+        "time_s": 10.757999999999477
+      },
+      "measured_peak_left_ee_speed_mps": 0.5003124794135043,
+      "right_below_50mm_intervals_s": []
+    }
+  ],
+  "validation": {
+    "csv_npz_identical": true,
+    "all_summary_checks_passed": true,
+    "all64_interarm_sample_count": 42,
+    "max_geometry_error_m": 0.0
+  }
+}

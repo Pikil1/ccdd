@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "decoded_frames": 2161,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60.0,
+  "encoded_duration_s": 36.02,
+  "simulation_duration_s": 36,
+  "includes_first_and_last_recorded_state": true,
+  "playback_speed": 1,
+  "source_hashes_verified": true,
+  "max_rendered_fk_error_m": 0.0,
+  "video_sha256": "163f4832807483864604b9fd62ee47b09de5ede71087aca7f6be6cf150888fd9",
+  "video_size_bytes": 6198607
+}

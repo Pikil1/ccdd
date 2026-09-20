@@ -1,0 +1,74 @@
+{
+  "case": "fresh_nearest7_no_self_d50mm_z1_base0p8_0p25mps_20260920",
+  "video": "racbf_base0p8_0p25mps.mp4",
+  "method": "RA-CBF (Reachable+Fresh)",
+  "source_recording": "fresh_nearest7_no_self_d50mm_z1_base0p8_0p25mps_20260920",
+  "target_peak_obstacle_flange_speed_mps": 0.25,
+  "measured_peak_obstacle_flange_speed_mps": 0.25004129422823845,
+  "obstacle_motion": "Inward straight approach; 1 s dwell; reverse the same path at 0.08 m/s peak; hold at start",
+  "retreat": {
+    "start_time_s": 6.236563425857896,
+    "end_time_s": 22.60082413166382,
+    "motion_duration_s": 16.364260705805926,
+    "endpoint_dwell_s": 1.0,
+    "final_hold_s": 5.0,
+    "nominal_peak_ee_speed_mps": 0.08,
+    "nominal_mean_moving_ee_speed_mps": 0.042666666666666665,
+    "start_world_m": [
+      0.29999999999999993,
+      -0.5,
+      0.35
+    ],
+    "end_world_m": [
+      -0.34999556247289,
+      -0.7500005689722409,
+      0.4000053337123807
+    ],
+    "direction_world": [
+      -0.9309477078945182,
+      -0.35806007008969404,
+      0.07161949017764702
+    ],
+    "path": "Reverse the same continuous joint spline; quintic C2 start and stop",
+    "time_scaling": "Only inward motion scales; endpoint dwell, retreat speed and final hold are fixed"
+  },
+  "playback_speed": 1.0,
+  "controller": {
+    "Z_mps": 1.0,
+    "rho": 0.6,
+    "interarm_pairs": 7,
+    "safety_distance_m": 0.05,
+    "self_collision_constraints": false
+  },
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 2161,
+  "encoded_duration_s": 36.016666666666666,
+  "simulation_duration_s": 36.0000000000068,
+  "includes_first_and_last_recorded_state": true,
+  "first_recorded_index": 0,
+  "last_recorded_index": 36000,
+  "max_rendered_fk_error_m": 0.0,
+  "physics_reintegrated": false,
+  "camera": {
+    "lookat": [
+      0.0,
+      -0.25,
+      0.05
+    ],
+    "distance": 2.1,
+    "azimuth": 110,
+    "elevation": -15
+  },
+  "source_hashes": {
+    "trajectory.npz": "21db361cacae24f07c841551a3d9065d0b07f480c10f191b16197f016cbe0950",
+    "metadata.json": "cd7e0b76c2c7743d140c1f8f378add809444dc6403c269a789d2b7c8957e1f66",
+    "scene.xml": "3f89a00a6168c89d6e1c5a783aef59769b27c27cedf0389f4df99a51646d9894",
+    "scene.urdf": "e926dfccd138741634c57056543df32f5a7fd930afc7838da30d9fd71c842db3",
+    "summary.json": "2b09297a9a5b7e3c6827e1856c260ea7f4406fe8d0c9e0aa1228eb369aa0eb41",
+    "joint_trajectory.csv": "c497a0fa698ac8982e7f2b96cfb80699d7cb2fcaea6e0f3121e019b8b982ab7f"
+  },
+  "video_sha256": "163f4832807483864604b9fd62ee47b09de5ede71087aca7f6be6cf150888fd9",
+  "video_size_bytes": 6198607
+}

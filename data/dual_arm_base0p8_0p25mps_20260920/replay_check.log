@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "samples": 36001,
+  "duration_s": 36.0000000000068,
+  "max_flange_replay_error_m": 0.0,
+  "base_z_axes_world": {
+    "left": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "right": [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  },
+  "goal_marker_verified": true,
+  "model": "scene.xml",
+  "controller_required": false,
+  "physics_reintegrated": false
+}

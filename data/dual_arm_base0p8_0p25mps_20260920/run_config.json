@@ -1,0 +1,46 @@
+{
+  "description": "Same 69.82 cm inward path; dwell 1 s at the deep endpoint, then return along the same path at peak 0.08 m/s and hold the initial posture. Approach peaks 0.1/0.5/1.0 m/s; retreat timing is independent of approach scale.",
+  "initial_joint_posture": {
+    "left_q_rad": [
+      2.3182722021231994,
+      -0.6506891012292313,
+      0.5123239779054739,
+      -2.2914240523752403,
+      0.17103351656788582,
+      3.3292578427445445,
+      -1.0200000079444966
+    ],
+    "right_q_rad": [
+      -1.0994086187906424,
+      -1.1503088606693148,
+      -1.221263643282023,
+      -2.2531794122593554,
+      0.5109423123578076,
+      1.3834030340510417,
+      -0.8999991530060175
+    ]
+  },
+  "attack": {
+    "mode": "cartesian_line",
+    "times_s": [
+      0,
+      2.618281712928948,
+      3.618281712928948
+    ],
+    "displacement_world_m": [
+      0.6499955624728899,
+      0.2500005689722409,
+      -0.050005333712380695
+    ],
+    "working_limits": {
+      "velocity": 2.4,
+      "acceleration": 9.5,
+      "jerk": 200.0,
+      "servo_acceleration": 9.8
+    },
+    "retreat": {
+      "peak_ee_speed_mps": 0.08,
+      "final_hold_s": 5.0
+    }
+  }
+}
